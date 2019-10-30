@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../apue/include/apue.h
+sys/types.h
+-
+sys/stat.h
+-
+sys/termios.h
+-
+sys/ioctl.h
+-
+stdio.h
+-
+stdlib.h
+-
+stddef.h
+-
+string.h
+-
+unistd.h
+-
+signal.h
+-
+
+/Users/heping/Documents/APUE-Example-Code/fileio/mycat.c
+stdio.h
+-
+apue.h
+/Users/heping/Documents/APUE-Example-Code/fileio/apue.h
+

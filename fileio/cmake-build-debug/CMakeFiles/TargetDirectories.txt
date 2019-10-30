@@ -1,0 +1,4 @@
+/Users/heping/Documents/APUE-Example-Code/fileio/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/heping/Documents/APUE-Example-Code/fileio/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/heping/Documents/APUE-Example-Code/fileio/cmake-build-debug/CMakeFiles/seek.dir
+/Users/heping/Documents/APUE-Example-Code/fileio/cmake-build-debug/CMakeFiles/mycat.dir
