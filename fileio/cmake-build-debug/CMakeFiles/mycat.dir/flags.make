@@ -6,5 +6,5 @@ C_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/heping/Documents/APUE-Example-Code/fileio/./apue/include 
+C_INCLUDES = -I/Users/heping/Desktop/APUE-Example-Code/fileio/./apue/include 
 

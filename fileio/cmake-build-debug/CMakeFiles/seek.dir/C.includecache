@@ -28,7 +28,7 @@ unistd.h
 signal.h
 -
 
-/Users/heping/Desktop/APUE-Example-Code/fileio/mycat.c
+/Users/heping/Desktop/APUE-Example-Code/fileio/seek.c
 apue.h
 /Users/heping/Desktop/APUE-Example-Code/fileio/apue.h
 

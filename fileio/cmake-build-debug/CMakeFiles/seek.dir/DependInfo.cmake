@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/heping/Documents/APUE-Example-Code/fileio/seek.c" "/Users/heping/Documents/APUE-Example-Code/fileio/cmake-build-debug/CMakeFiles/seek.dir/seek.c.o"
+  "/Users/heping/Desktop/APUE-Example-Code/fileio/seek.c" "/Users/heping/Desktop/APUE-Example-Code/fileio/cmake-build-debug/CMakeFiles/seek.dir/seek.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
