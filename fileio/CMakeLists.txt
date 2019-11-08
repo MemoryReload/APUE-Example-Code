@@ -9,4 +9,4 @@ link_libraries(apue)
 
 add_executable(mycat mycat.c)
 add_executable(seek seek.c)
-add_executable(fileflags fileflags.c)
+add_executable(fileflags fileflags.c setfl.c)
