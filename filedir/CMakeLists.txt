@@ -7,4 +7,5 @@ include_directories(../apue/include)
 link_directories(../apue/lib)
 link_libraries(apue)
 
-add_executable(filedir filetype.c)
+add_executable(filetype filetype.c)
+add_executable(access access.c)
