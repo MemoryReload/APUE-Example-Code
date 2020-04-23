@@ -9,3 +9,4 @@ link_libraries(apue)
 
 add_executable(filetype filetype.c)
 add_executable(access access.c)
+add_executable(umask umask.c)
