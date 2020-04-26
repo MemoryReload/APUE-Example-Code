@@ -12,6 +12,7 @@ int main(int argc, char *argv[])
 
     mode_t originalMask = umask(0);
     printf("original mask: %#o",originalMask);
+    open();
     //fopen( ) default privilege is -rw-rw-rw and umask will take effect.
     if (fopen("boo","ab+") == NULL){
         err_sys("create error for boo");
@@ -21,7 +22,7 @@ int main(int argc, char *argv[])
     }
     umask(S_IRGRP | S_IWGRP | S_IROTH | S_IWOTH);
     if (creat("doo",RWRWRW)<0){
-        err_sys("create error for bar");
+        err_sys("create error for doo");
     }
     if (creat("loo",RWXRWXRWX)<0) {
         err_sys("create error for loo");
