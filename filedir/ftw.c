@@ -62,7 +62,7 @@ static int doPath(TraverseFunc func)
     struct dirent *dirent;
     int n, ret;
     //reveal self
-    if (lstat(fullpath,&statBuf)>0)
+    if (lstat(fullpath,&statBuf)<0)
         return myfunc(fullpath,&statBuf,FTW_NS);
     if (0 == S_ISDIR(statBuf.st_mode))
         return myfunc(fullpath,&statBuf,FTW_F);
@@ -94,7 +94,7 @@ static int doPath(TraverseFunc func)
     }
     //restore the fullpath
     *(fullpath+n) = '\0';
-    if (closedir(dir)>0)
+    if (closedir(dir)<0)
         err_ret("can’t close directory %s", fullpath);
     return ret;
 };

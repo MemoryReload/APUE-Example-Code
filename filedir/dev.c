@@ -19,7 +19,7 @@ int main (int argc, char *argv[])
     for (int i=1; i<argc; i++){
         struct stat  statBuf;
         printf("file: %s",argv[i]);
-        if (lstat(argv[i],&statBuf)>0)
+        if (lstat(argv[i],&statBuf)<0)
         {
             err_msg("cannot stat\n");
             continue;
