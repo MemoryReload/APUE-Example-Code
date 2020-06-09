@@ -8,3 +8,4 @@ link_directories(../apue/lib)
 link_libraries(apue)
 
 add_executable(stdio buf.c)
+add_executable(tempfiles tempfiles.c)
